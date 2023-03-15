@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const knn = require('../index');
+const knn = require('../index.min.js');
 const fs = require('fs');
 const path = require('path');
 

@@ -1,14 +1,18 @@
 {
   "name": "@kozmonos/image-classifier",
   "version": "0.0.1",
-  "description": "",
+  "description": "This package allows you to interact with 3 simple functions (init, train, predict) using Tensorflow JS's @tensorflow-models/knn-classifier package.",
   "main": "dist/index.min.js",
   "scripts": {
-    "build": "uglifyjs ./index.js -o ./dist/index.min.js",
+    "build": "uglifyjs  ./index.js  -c  -m --mangle-props reserved=[init,train,predict] -o index.min.js",
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "image classifier",
+    "tensorflow js",
+    "tensorflow image"
+  ],
+  "author": "<onur.m.aycicek@gmail.com> Onur Ayçicek",
   "license": "ISC",
   "dependencies": {
     "@tensorflow-models/knn-classifier": "^1.2.4",
