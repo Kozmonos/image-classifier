@@ -1,0 +1,23 @@
+{
+  "name": "@kozmonos/image-classifier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "build": "uglifyjs ./index.js -o ./dist/index.min.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^1.2.4",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs-node": "^3.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "uglify-js": "^3.17.4"
+  }
+}
