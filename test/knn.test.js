@@ -3,7 +3,7 @@ const knn = require('../index');
 const fs = require('fs');
 const path = require('path');
 
-const assetsPath = path.join(__dirname, "..", 'assets');
+const assetsPath = path.join(__dirname, "..", 'assets', 'test');
 
 const getAssetsImage = (image) => {
 	try {
