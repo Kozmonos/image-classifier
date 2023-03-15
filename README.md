@@ -2,7 +2,7 @@
 
 ![Tensorflow](https://www.gstatic.com/devrel-devsite/prod/v05e7bfbff49f105125b8b594f3a652493da8c30b69bf85fd5d75c6ab4f13a57e/tensorflow/images/lockup.svg)
 
-This package allows you to interact with 3 simple functions (init, train, predict) using Tensorflow JS's @tensorflow-models/knn-classifier package.
+This package allows you to interact with 3 simple functions (init, train, predict) using Tensorflow JS's [@tensorflow-models/knn-classifier](https://www.npmjs.com/package/@tensorflow-models/knn-classifier) package.
 
 ```javascript
 const fs = require("fs");
