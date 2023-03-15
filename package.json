@@ -1,6 +1,6 @@
 {
   "name": "@kozmonos/image-classifier",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package allows you to interact with 3 simple functions (init, train, predict) using Tensorflow JS's @tensorflow-models/knn-classifier package.git ",
   "main": "index.min.js",
   "scripts": {
